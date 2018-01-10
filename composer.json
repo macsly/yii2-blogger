@@ -1,0 +1,21 @@
+{
+    "name": "macsly/yii2-blogger",
+    "description": "Blog module for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "macsly",
+            "email": "macsly@ukr.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "macsly\\blogger\\": ""
+        }
+    }
+}
